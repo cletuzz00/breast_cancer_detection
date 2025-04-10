@@ -1,0 +1,14 @@
+name: myenv
+dependencies:
+  - python
+  - pip
+  - pip:
+      - scipy
+      - numpy==1.16.2
+      - matplotlib
+      - pandas
+      - scikit-learn==0.20.3
+      - jupyterlab
+      - jupyter
+      - ipykernel
+      - ipywidgets
